@@ -54,7 +54,7 @@ function draw() {
   // ✅ 如果还没点击开始，显示启动画面
   if (!gameStarted) {
     background(255);
-    fill(255);
+    fill(0);
     textAlign(CENTER, CENTER);
     textSize(24);
     text("点击屏幕开启进入", width / 2, height / 2);
